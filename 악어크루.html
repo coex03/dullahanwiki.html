@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>악어크루</title>
+<meta charset="utf-8">
+<style>
+  body{
+    margin: 0;
+    background-color: rgb(245, 245, 220);
+    font-family: DX빨간우체통B;
+  }
+  a{
+    text-decoration: none;
+    color: seagreen;
+    display: inline;
+  }
+  h3{
+    font-size: 17px;
+    display: inline;
+  }
+  h2{
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 55px;
+    display: inline;
+  }
+  header{
+    text-align: center;
+    border-bottom:2px gray dashed;
+    margin: 0;
+    padding: 5px;
+    padding-top: 35px;
+    background-image: url('배경1.jpeg');
+    background-size: cover;
+  }
+  ul{
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding-top: 0px;
+  }
+  span{
+    font-size: 22px;
+  }
+  img{
+    border: 5px green double;
+    padding: 1px;
+  }
+  .main{
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .left{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  .acau{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    position: relative; right: 5px;
+  }
+  #list{
+     border-right: 2px gray dashed;
+     margin: 0;
+  }
+  #nightdayhandler1{
+    position: fixed; top: 20px; right: 20px;
+  }
+  @media(max-width:700px){
+    span{
+      font-size: 17px;
+    }
+    .body{
+      display: block;
+    }
+    .left{
+      display: none;
+    }
+    .acau{
+      display: none;
+    }
+    #list{
+      border: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <a href="메인.html" target="_blank"><h1>듀라한 위키</h1></a>
+    <ul>
+      <span><a href="1세대.html" target="_blank">1세대</a>&nbsp</span>
+      <span><a href="2세대.html" target="_blank">2세대</a>&nbsp</span>
+      <span><a href="3세대.html" target="_blank">3세대</a>&nbsp</span>
+      <span><a href="악어크루.html" target="_blank">악어크루</a>&nbsp</span>
+      <span><a href="양띵크루.html" target="_blank">양띵크루</a>&nbsp</span>
+    </ul>
+  </header>
+  <div class="night">
+    <input id="nightdayhandler1" style="float: right;" type="button" value="어두운 테마" onclick="
+      var this_body = document.querySelector('body');
+      if(this.value === '어두운 테마'){
+        this_body.style.backgroundColor = 'rgb(40 40 40)';
+        this_body.style.color = 'white';
+        this.value = '밝은 테마';
+        document.querySelector('#nightdayhandler2').value = '밝은 테마';
+      }
+      else{
+        this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+        this_body.style.color = 'black';
+        this.value = '어두운 테마';
+        document.querySelector('#nightdayhandler2').value = '어두운 테마'
+      }
+    ">
+  </div>
+<div class="body">
+  <div id="list">
+    <ul id="left">
+      <a href="1세대.html" target="_blank" style="color:green; padding-top: 20px" class="left">1세대</a>
+        <ul></ul>
+      <a href="2세대.html" target="_blank" class="left">2세대</a>
+        <ul></ul>
+      <a href="3세대.html" target="_blank" class="left">3세대</a>
+        <ul></ul>
+      <a href="악어크루.html" target="_blank" class="left">악어크루</a>
+        <ul>
+          <a href="악어.html" target="_blank" style="color:darkgreen" class="acau"><h3>악어</h3></a>
+          <a href="핑맨.html" target="_blank" style="color:black" class="acau"><h3>핑맨</h3></a>
+          <a href="멋사.html" target="_blank" style="color:gray" class="acau"><h3>멋사</h3></a>
+          <a href="중력.html" target="_blank" style="color:blue" class="acau"><h3>중력</h3></a>
+          <a href="너불.html" target="_blank" style="color:purple" class="acau"><h3>너불</h3></a>
+          <a href="만득.html" target="_blank" style="color:yellow" class="acau"><h3>만득</h3></a>
+          <a href="수닝.html" target="_blank" style="color:brown" class="acau"><h3>수닝</h3></a>
+          <a href="리타.html" target="_blank" style="color:lightgreen" class="acau"><h3>리타</h3></a>
+          <a href="남봉.html" target="_blank" style="color:maroon" class="acau"><h3>남봉</h3></a>
+        </ul>
+      <a href="양띵크루.html" target="_blank" class="left">양띵크루</a>
+        <ul></ul>
+
+    </ul>
+  </div>
+  <div class="main">
+    <h2 style="font-size : 35px;">악어크루</h2>
+    <img src="악어크루.png" width="400px">
+    <div style="color:gray">&nbspㄴ 왼쪽 부터 멋사, 핑맨, 너불, 악어, 남봉, 리타, 수닝, 중력</div>
+    <h2>1.명칭</h2>
+    <p>
+      &nbsp&nbsp2012~13년 아프리카 TV 초창기에는 방송 그룹을 클럽, 클랜으로 부르는 풍조에 따라 '늪 클럽'으로 불렸으며, 이후 늪 TV, 늪지대, 악어TV 등등 다양한 명칭이 사용되었다.<br>
+      &nbsp&nbsp2015년 경 '악어 + 멤버 + 매니저 + 시청자 + 공식팀 = 늪지대'라는 플랜을 걸고 방송인과 팬덤을 통틀어서 늪지대로 지칭하였다.<br>
+      &nbsp&nbsp공식팀 사건 이후, '늪지대라는 용어는 공식팀을 포함한 의미였는데 공식팀이 없는 현재는 늪지대라고 부를 수 없다'는 주장이 제시되어 사용이 줄어들었다.<br>
+      &nbsp&nbsp2017년 컨텐츠 만화책을 필두로 한 여러가지 굿즈 상품에서 '악어크루'라는 명칭을 사용하면서 공식으로 굳어졌다.
+    </p>
+    <h2>2.특징</h2>
+    <p>
+      &nbsp&nbsp2012~13년도 아프리카 TV에서 악어는 같은 마인크래프트 주력 컨텐츠 방송 선배인 잉여맨과 양띵의 방송 관계자 체계를 차용하였다.<br>
+      &nbsp&nbsp메인 카메라인 악어를 중심으로 방송이 진행되며, 개인 방송 허가 유무 등의 주요 사안들을 전부 악어가 함께하는 회의로 결정된다고 한다.<br>
+      &nbsp&nbsp공식팀 사건을 통해서 악어 본인은 소속사나 외부 행사 참여에만 몰두하였고, 방송 내 컨텐츠 제작이나 운영은 전부 멤버와 공식팀에게 전담하고 전혀 신경쓰지 않았다고 한다.<br>
+      &nbsp&nbsp또한 회계와 관련해서는 매니저 도트리가 총괄하였다고 한다. 여기까지 보면 악어가 얼굴마담이나 바지사장으로 여길 수 있으나, <br>
+      &nbsp&nbsp지속적으로 악어 편향적인 운영과 컨텐츠의 각본 우승 논란이 불거진 면으로 보아, 악어는 인력 동원을 제외한 모든 중요 사항에만 관여하고 있는 걸 알 수 있다.<br>
+      &nbsp&nbsp도트리가 활동 당시 멤버들이 방송 종료 후 회의에 불려갔다는 것을 농담으로 삼거나, 대표 공지사항이나 사과문을 도트리가 발표하는 점, <br>
+      &nbsp&nbsp회사 근무 이력이 있는 연장자라는 점에서 도트리의 영향이 컸다는 의견이 많았고, 탈퇴 이후 방송의 분위기나 수위에 변동이 적잖게 생기면서 기정사실로 여겨졌다.<br>
+      &nbsp&nbsp이런 피라미드형 구조 때문에, 통상적인 방송인 크루라고 하면 떠올리는 팀원들의 대등한 관계보다는 기업을 연상시키는 수직적인 구조이다. <br>
+      &nbsp&nbsp유튜브에 채용자 공고라며 'JDM ENT'라고 언급했으나 이메일만 적혀 있어 확인되지 않았다.<br>
+      &nbsp&nbsp아프리카 TV 활동 당시에 고정 멤버, 테스터, 고정 매니저와 같은 용어를 사용하였으나 플랫폼이 변경되고 시간이 지나면서 해당 용어가 사장, 현재는 단순히 크루원이나 멤버라고 지칭한다. <br>
+      &nbsp&nbsp초기 방송부터 꾸준히 멤버와 매니저를 포함해 총 인원이 10명을 넘어 오디오가 풍부했다. 하지만 2016년 중반부터 총 인원이 꾸준히 감소, <br>
+      &nbsp&nbsp2019년 말 기준 악어 포함 멤버가 7명을 기록했다. 다른 원인도 있지만 자연스레 평균 게임 시간이 감소하였고, 매니저/운영자 역할인 남봉이 플레이어로 등장하는 일이 잦아졌다.<br>
+    </p>
+    </p>
+    </div>
+  </div>
+  <div class="night">
+    <input id="nightdayhandler2" style="float: right;" type="button" value="어두운 테마" onclick="
+      var this_body = document.querySelector('body');
+      if(document.querySelector('#nightdayhandler2').value === '어두운 테마'){
+        this_body.style.backgroundColor = 'rgb(40 40 40)';
+        this_body.style.color = 'white';
+        this.value = '밝은 테마';
+        document.querySelector('#nightdayhandler1').value = '밝은 테마';
+      }
+      else{
+        this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+        this_body.style.color = 'black';
+        this.value = '어두운 테마';
+        document.querySelector('#nightdayhandler1').value = '어두운 테마'
+        }
+    ">
+</div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>☆듀라한 위키☆</title>
+<meta charset="utf-8">
+<style>
+  body{
+    margin: 0;
+    background-color: rgb(245, 245, 220);
+    font-family: DX빨간우체통B;
+  }
+  a{
+    text-decoration: none;
+    color: seagreen;
+    display: inline;
+  }
+  h3{
+    font-size: 17px;
+    display: inline;
+  }
+  h1{
+    font-size: 55px;
+    display: inline;
+  }
+  header{
+    text-align: center;
+    border-bottom:2px gray dashed;
+    margin: 0;
+    padding: 5px;
+    padding-top: 35px;
+    background-image: url('배경1.jpeg');
+    background-size: cover;
+  }
+  ul{
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding-top: 0px;
+  }
+  span{
+    font-size: 22px
+  }
+  .main{
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .left{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  .일세대{
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  .acau{
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  .양띵{
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  #list{
+     border-right: 2px gray dashed;
+     margin: 0;
+  }
+  #left{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  #nightdayhandler1{
+    position: fixed; top: 20px; right: 20px;
+  }
+  @media(max-width:700px){
+    span{
+      font-size: 17px;
+    }
+    details{
+      display: none;
+    }
+    .body{
+      display: block;
+    }
+    #list{
+      border: 0;
+    }
+    #left{
+      padding: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <a href="메인.html" target="_blank"><h1>듀라한 위키</h1></a>
+    <ul>
+      <span><a href="1세대.html" target="_blank">1세대</a>&nbsp</span>
+      <span><a href="2세대.html" target="_blank">2세대</a>&nbsp</span>
+      <span><a href="3세대.html" target="_blank">3세대</a>&nbsp</span>
+      <span><a href="악어크루.html" target="_blank">악어크루</a>&nbsp</span>
+      <span><a href="양띵크루.html" target="_blank">양띵크루</a>&nbsp</span>
+    </ul>
+  </header>
+  <div class="night">
+    <input id="nightdayhandler1" style="float: right;" type="button" value="어두운 테마" onclick="
+      var this_body = document.querySelector('body');
+      if(this.value === '어두운 테마'){
+        this_body.style.backgroundColor = 'rgb(40 40 40)';
+        this_body.style.color = 'white';
+        this.value = '밝은 테마';
+        document.querySelector('#nightdayhandler2').value = '밝은 테마';
+      }
+      else{
+        this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+        this_body.style.color = 'black';
+        this.value = '어두운 테마';
+        document.querySelector('#nightdayhandler2').value = '어두운 테마'
+      }
+    ">
+  </div>
+<div class="body">
+  <div id="list">
+    <ul id="left">
+      <details>
+        <summary><a href="1세대.html" target="_blank" style="color:green; font-size:25px;" class="left">1세대</a></summary>
+          <ul>
+            <a href="에렌디라.html" target="_blank" style="color:pink" class="일세대"><h3>에렌디라</h3></a>
+            <a href="봄수.html" target="_blank" style="color:peachpuff" class="일세대"><h3>봄수</h3></a>
+            <a href="단즈.html" target="_blank" style="color:rosybrown" class="일세대"><h3>단즈</h3></a>
+            <a href="강지.html" target="_blank" style="color:turquoise" class="일세대"><h3>강지</h3></a>
+            <a href="조매력.html" target="_blank" style="color:peru" class="일세대"><h3>조매력</h3></a>
+            <a href="홍개.html" target="_blank" style="color:black" class="일세대"><h3>홍개</h3></a>
+            <a href="이춘향.html" target="_blank" style="color:lightpink" class="일세대"><h3>이춘향</h3></a>
+            <a href="사과몽.html" target="_blank" style="color:crimson" class="일세대"><h3>사과몽</h3></a>
+            <a href="머독.html" target="_blank" style="color:black" class="일세대"><h3>머독</h3></a>
+            <a href="뷜랑.html" target="_blank" style="color:brown" class="일세대"><h3>뷜랑</h3></a>
+            <a href="이초홍.html" target="_blank" style="color:dimgray" class="일세대"><h3>이초홍</h3></a>
+            <a href="웁.html" target="_blank" style="color:silver" class="일세대"><h3>웁</h3></a>
+            <a href="로복.html" target="_blank" style="color:skyblue" class="일세대"><h3>로복</h3></a>
+            <a href="바나나.html" target="_blank" style="color:yellow" class="일세대"><h3>바나나</h3></a>
+            <a href="대정령.html" target="_blank" style="color:green" class="일세대"><h3>대정령</h3></a>
+            <a href="우왁굳.html" target="_blank" style="color:gold" class="일세대"><h3>우왁굳</h3></a>
+            <a href="렘쨩.html" target="_blank" style="color:plum" class="일세대"><h3>렘쨩</h3></a>
+          </ul>
+        </details>
+      <details>
+        <summary><a href="2세대.html" style="color:green; font-size:25px;" target="_blank" class="left">2세대</a></summary>
+          <ul>
+
+          </ul>
+      </details>
+      <details>
+        <summary><a href="3세대.html" style="color:green; font-size:25px;" target="_blank" class="left">3세대</a></summary>
+          <ul>
+
+          </ul>
+      </details>
+      <details>
+      <summary><a href="악어크루.html" style="color:green; font-size:20px;" target="_blank" class="left">악어크루</a></summary>
+        <ul>
+          <a href="악어.html" target="_blank" style="color:darkgreen" class="acau"><h3>악어</h3></a>
+          <a href="핑맨.html" target="_blank" style="color:black" class="acau"><h3>핑맨</h3></a>
+          <a href="멋사.html" target="_blank" style="color:gray" class="acau"><h3>멋사</h3></a>
+          <a href="중력.html" target="_blank" style="color:blue" class="acau"><h3>중력</h3></a>
+          <a href="너불.html" target="_blank" style="color:purple" class="acau"><h3>너불</h3></a>
+          <a href="만득.html" target="_blank" style="color:yellow" class="acau"><h3>만득</h3></a>
+          <a href="수닝.html" target="_blank" style="color:brown" class="acau"><h3>수닝</h3></a>
+          <a href="리타.html" target="_blank" style="color:lightgreen" class="acau"><h3>리타</h3></a>
+          <a href="남봉.html" target="_blank" style="color:maroon" class="acau"><h3>남봉</h3></a>
+        </ul>
+      </details>
+      <details>
+      <summary><a href="양띵크루.html" style="color:green; font-size:20px;" target="_blank" class="left">양띵크루</a></summary>
+        <ul>
+          <a href="양띵.html" target="_blank" style="color:crimson" class="양띵"><h3>양띵</h3></a>
+          <a href="삼식.html" target="_blank" style="color:firebrick" class="양띵"><h3>삼식</h3></a>
+          <a href="서넹.html" target="_blank" style="color:lightpink" class="양띵"><h3>서넹</h3></a>
+          <a href="후추.html" target="_blank" style="color:black" class="양띵"><h3>후추</h3></a>
+          <a href="눈꽃.html" target="_blank" style="color:ghostwhite" class="양띵"><h3>눈꽃</h3></a>
+          <a href="콩콩.html" target="_blank" style="color:greenyellow" class="양띵"><h3>콩콩</h3></a>
+          <a href="다주.html" target="_blank" style="color:darkmagenta" class="양띵"><h3>다주</h3></a>
+          <a href="루태.html" target="_blank" style="color:deepskyblue" class="양띵"><h3>루태</h3></a>
+
+        </ul>
+      </details>
+    </ul>
+  </div>
+  <div class="main">
+  <h2 style="font-size : 35px;">듀라한</h2>
+  <h2>1.명칭</h2>
+  <p>
+    &nbsp&nbsp얼굴을 공개하지 않는 인터넷 방송 또는 방송인(스트리머)을 가리키는 말. 인터넷 방송 용어로서의 듀라한이 인터넷 게시글로서 가장 최초로 쓰인것은 17년 10월 9일로 보인다.<br>
+    &nbsp&nbsp본래 뜻은 아일랜드 귀신에 비유하여, 목 아래 부분만 웹캠 화면으로 찍어 송출하는 방송을 듀라한캠(노얼캠)이라고 했으며 비하하는 의미도 지금처럼 강하지 않았다.<br>
+    &nbsp&nbsp그런데 디시인사이드 게임방송 마이너 갤러리(현 스트리머 갤러리) 등지에서 노얼캠 방송에 대한 반감이 커지면서 이를 포함한 노캠 방송 및 캐릭터(자캐) 프로필 방송인을 모두 아울러, <br>
+    &nbsp&nbsp'듀라한 스트리머'라는 호칭으로 부르기 시작하였다.<br>
+  </p>
+  <h2>2.특징</h2>
+  <p>
+    이들의 가장 큰 특징은 목소리이다. 방송 중 본인을 드러낼 수 있는 가장 확실한 수단인 캠을 안 켜기 때문에, 이들이 나타내는 개성은 대부분 목소리에서 나오며,<br>
+    (물론 호불호의 차이는 있겠지만) 팬층이 어느 정도 있는 노캠 방송은 평범한 사람들의 목소리 톤과 다른 개성적인 톤을 가지고 있다. <br>
+    방송인마다 다르지만 대부분 '애니메이션 성우 느낌'의 하이톤의 목소리를 가진 경우가 많다.<br><br>
+
+    또한 캠 화면 대신 자신을 드러내는 오너캐를 가지고 있는 경우가 많다.<br>
+    얼굴을 드러내지 않기 때문에 목소리를 통해 연상되는 이미지 + 사전에 정한 세세한 설정을 카툰풍으로 표현한 캐릭터를 본인의 아바타로 사용하여 <br>
+    그 일러스트를 프로필 사진으로 쓰거나 방송 화면에 띄워놓는 식이다.<br><br>
+
+    그렇다보니 방송인 본인도 오덕인 경우도 있으며, 방송 분위기 자체가 그러한 문화에 꽤 친숙하다.<br>
+    이들은 종종 애니메이션 OST나 보컬로이드 곡을 커버하기도 한다. 이들은 대부분 트위터 활동을 하며, 트위터를 통해 서로 친분을 쌓거나 팬아트를 받는다.<br>
+    서로 간의 교류가 잦으며 친분있는 사람들이 모여 크루를 만들기도 한다.<br><br>
+
+    이들은 대부분 취미로 방송을 시작했기에, 주력 컨텐츠가 딱히 없는 경우가 많다. 시청자와의 소통 방송, 라디오 방송, 친분있는 방송인들끼리의 토크 방송, <br>
+    가벼운 멀티플레이 게임 방송 위주로 방송하는 경우가 많다.<br><br>
+
+    듀라한 자체가 오타쿠 층에게 어필하는 방송인과 그 시청자들을 깎아내리기 위해 만들어진 용어이기 때문에 캠을 켜지 않았더라도 오타쿠 층에 어필하는 방송이 아니라면<br>
+    (예를 들어 랭크가 최상위급인 실력방송) 노캠이더라도 딱히 듀라한이라 지칭되지 않는 편이다.<br>
+  </p>
+  <h2>3. 세대 구분</h2>
+  <p>
+    본 위키에서는 스트리머의 세대를 듁수의 성격이 아닌, 그 스트리머의 첫 방송 날짜를 기준으로 구분한다.<br>
+    또한 크루 단위로 활동을 지속하는 스트리머 집단은 크루로 묶는다.<br><br>
+    1세대 : 아프리카TV 플랫폼이 생겨난 직후 방송을 시작한 방송인(아프리카 개국공신)<br>
+    2세대 : 개국공신은 아니지만, 초창기 아프리카에서 방송을 시작한 최소 7년차의 베테랑 방송인(2013 ~)<br>
+    3세대 : 아프리카 갑질 논란 이후, 트위치에서 첫방송을 시작한 방송인(2017~)<br>
+    악어크루 : 방송인 악어를 중심으로 주로 마인크래프트 컨텐츠를 함께하는 방송인 집단, 악어, 핑맨, 중력은 1세대, 나머지 멤버는 2세대로 분류한다<br>
+    양띵크루 : 방송인 양띵을 중심으로 주로 마인크래프트 컨텐츠를 함께하는 방송인 집단, 양띵, 삼식, 후추, 서넹은 1세대, 콩콩, 루태, 다주, 눈꽃은 2세대로 분류한다<br>
+  </p>
+  </div>
+</div>
+<div class="night">
+  <input id="nightdayhandler2" style="float: right;" type="button" value="어두운 테마" onclick="
+    var this_body = document.querySelector('body');
+    if(document.querySelector('#nightdayhandler2').value === '어두운 테마'){
+      this_body.style.backgroundColor = 'rgb(40 40 40)';
+      this_body.style.color = 'white';
+      this.value = '밝은 테마';
+      document.querySelector('#nightdayhandler1').value = '밝은 테마';
+    }
+    else{
+      this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+      this_body.style.color = 'black';
+      this.value = '어두운 테마';
+      document.querySelector('#nightdayhandler1').value = '어두운 테마'
+      }
+  ">
+</div>
+</body>
+</html>

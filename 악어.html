@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>악어</title>
+<meta charset="utf-8">
+<style>
+  body{
+    margin: 0;
+    background-color: rgb(245, 245, 220);
+    font-family: DX빨간우체통B;
+  }
+  a{
+    text-decoration: none;
+    color: seagreen;
+    display: inline;
+  }
+  h3{
+    font-size: 17px;
+    display: inline;
+  }
+  h2{
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 55px;
+    display: inline;
+  }
+  header{
+    text-align: center;
+    border-bottom:2px gray dashed;
+    margin: 0;
+    padding: 5px;
+    padding-top: 35px;
+    background-image: url('배경1.jpeg');
+    background-size: cover;
+  }
+  ul{
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding-top: 0px;
+  }
+  span{
+    font-size: 22px
+  }
+  .main{
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .left{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #list{
+     border-right: 2px gray dashed;
+     margin: 0;
+  }
+  .acau{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    position: relative; right: 5px;
+  }
+  #nightdayhandler1{
+    position: fixed; top: 20px; right: 20px;
+  }
+  @media(max-width:700px){
+    span{
+      font-size: 17px;
+    }
+    .body{
+      display: block;
+    }
+    .left{
+      display: none;
+    }
+    .acau{
+      display: none;
+    }
+    #list{
+      border: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <a href="메인.html" target="_blank"><h1>듀라한 위키</h1></a>
+    <ul>
+      <span><a href="1세대.html" target="_blank">1세대</a>&nbsp</span>
+      <span><a href="2세대.html" target="_blank">2세대</a>&nbsp</span>
+      <span><a href="3세대.html" target="_blank">3세대</a>&nbsp</span>
+      <span><a href="악어크루.html" target="_blank">악어크루</a>&nbsp</span>
+      <span><a href="양띵크루.html" target="_blank">양띵크루</a>&nbsp</span>
+    </ul>
+  </header>
+  <div class="night">
+    <input id="nightdayhandler1" style="float: right;" type="button" value="어두운 테마" onclick="
+      var this_body = document.querySelector('body');
+      if(this.value === '어두운 테마'){
+        this_body.style.backgroundColor = 'rgb(40 40 40)';
+        this_body.style.color = 'white';
+        this.value = '밝은 테마';
+        document.querySelector('#nightdayhandler2').value = '밝은 테마';
+      }
+      else{
+        this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+        this_body.style.color = 'black';
+        this.value = '어두운 테마';
+        document.querySelector('#nightdayhandler2').value = '어두운 테마'
+      }
+    ">
+  </div>
+<div class="body">
+  <div id="list">
+    <ul id="left">
+      <a href="1세대.html" target="_blank" style="color:green; padding-top: 20px" class="left">1세대</a>
+        <ul></ul>
+      <a href="2세대.html" target="_blank" class="left">2세대</a>
+        <ul></ul>
+      <a href="3세대.html" target="_blank" class="left">3세대</a>
+        <ul></ul>
+      <a href="악어크루.html" target="_blank" class="left">악어크루</a>
+        <ul>
+          <a href="악어.html" target="_blank" style="color:darkgreen" class="acau"><h3>악어</h3></a>
+          <a href="핑맨.html" target="_blank" style="color:black" class="acau"><h3>핑맨</h3></a>
+          <a href="멋사.html" target="_blank" style="color:gray" class="acau"><h3>멋사</h3></a>
+          <a href="중력.html" target="_blank" style="color:blue" class="acau"><h3>중력</h3></a>
+          <a href="너불.html" target="_blank" style="color:purple" class="acau"><h3>너불</h3></a>
+          <a href="만득.html" target="_blank" style="color:yellow" class="acau"><h3>만득</h3></a>
+          <a href="수닝.html" target="_blank" style="color:brown" class="acau"><h3>수닝</h3></a>
+          <a href="리타.html" target="_blank" style="color:lightgreen" class="acau"><h3>리타</h3></a>
+          <a href="남봉.html" target="_blank" style="color:maroon" class="acau"><h3>남봉</h3></a>
+        </ul>
+      <a href="양띵크루.html" target="_blank" class="left">양띵크루</a>
+        <ul></ul>
+
+    </ul>
+  </div>
+  <div class="main">
+  <h2 style="font-size : 35px;">악어</h2>
+  <img src="악어.jpg" alt="" style="border:5px darkgreen double; padding:1px; width:400px">
+  <h2>1.명칭</h2>
+  <p>
+    현 아프리카TV BJ이며, 전 트위치의 게임 스트리머, 유튜버이다. <br>
+    방송의 주된 컨텐츠는 마인크래프트, 기념일 같은 날에는 캠방을 진행하기도 하며 가끔씩 다른 게임들 또한 진행하기도 한다.<br>
+    마인크래프트를 활용한 컨텐츠들로 크게 인기를 끌었으며, 악어의 흑역사인 여러 사건들도 있었지만 그래도 꾸준히 영향력이 큰 크리에이터로, <br>
+    시청자 수를 10만명을 찍을 정도로 유튜브와 다른 여러 플랫폼에서 계속해서 꾸준히 인기를 모으고 있다<br>
+  </p>
+  </div>
+</div>
+<div class="night">
+  <input id="nightdayhandler2" style="float: right;" type="button" value="어두운 테마" onclick="
+    var this_body = document.querySelector('body');
+    if(document.querySelector('#nightdayhandler2').value === '어두운 테마'){
+      this_body.style.backgroundColor = 'rgb(40 40 40)';
+      this_body.style.color = 'white';
+      this.value = '밝은 테마';
+      document.querySelector('#nightdayhandler1').value = '밝은 테마';
+    }
+    else{
+      this_body.style.backgroundColor = 'rgb(245, 245, 220)';
+      this_body.style.color = 'black';
+      this.value = '어두운 테마';
+      document.querySelector('#nightdayhandler1').value = '어두운 테마'
+      }
+  ">
+</div>
+</body>
+</html>
